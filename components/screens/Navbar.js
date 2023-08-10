@@ -21,7 +21,7 @@ const Navbar = ({isLoggedIn, setIsLoggedIn}) => {
         animationOut={"slideOutLeft"}
         
         isVisible={visible}
-        onBackdropPress={()=> setVisible(false````)}
+        onBackdropPress={()=> setVisible(false)}
       >
         <View style={styles.menuContainer}>
           <View style={styles.logoContainer}>
